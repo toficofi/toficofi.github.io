@@ -17,25 +17,72 @@
 
 <body>
   <div id="site">
+    <header class="intro">
+      <div class="intro__wrap">
+        <img class="intro__icon" src="images/Icon_Logo.jpg" alt="Brand Icon" />
+        <h2 class="intro__tagline">I'm
+          <span class="name">Josh Lee</span>, a professional Unity programmer based in Dundee, Scotland.
+        </h2>
+      </div>
+    </header>
       <section class="section featured-projects" data-sr>
           <div class="section__title">Featured Projects</div>
           <div class="section__content">
-            <div class="project Cosmodome">
+            <div class="project Reblaze">
               <figure class="project__pic">
-                <a href="https://hyperluminalgames.com/" target="_blank"></a>
-                  <img src="images/Banner_Cosmodome.gif" alt="Cosmodome Banner">
+                <a target="_blank"></a>
+                  <img src="images/Banner_Reblaze.jpg" alt="Reblaze Banner">
                 </a>
               </figure>
               <figcaption class="project__caption">
                 <div class="project__name">
-                  <a href="https://hyperluminalgames.com/" target="_blank">Cosmodome</a>
+                  <a target="_blank">Reblaze</a>
                 </div>
-                <p>I worked as a programmer in a team of 9 for our client, <a class="underline-link" href="https://hyperluminalgames.com/" target="_blank">Hyperluminal Games</a>. The brief was arena-based, fast-paced combat with an emphasis on WWE-like showboatism. We put this vertical slice together in three months.</p>
+                <p>
+                  General-use API-based E2E automated testing framework for Unity currently in development. 
+                  <br/></br>
+                  Coders write isolated Actions that interface with game code, and test authors compose tests by mixing and matching Actions in a no-code editor.
+                </p>
+              </figcaption>
+            </div>
+            <div class="project CoinPusher">
+              <figure class="project__pic">
+                <a href="https://coinpusherforcharity.com/" target="_blank"></a>
+                  <img src="images/Banner_CoinPusher.gif" alt="CoinPusher Banner">
+                </a>
+              </figure>
+              <figcaption class="project__caption">
+                <div class="project__name">
+                  <a href="https://coinpusherforcharity.com/" target="_blank">Coin Pusher for Charity</a>
+                </div>
+                <p>
+                  A coin pusher is streamed to Twitch, and you add coins to the board by donating to a charity. 
+                  <br/><br/>
+                  Unity for game, Firebase/Node.js for connectivity, React for webpage.</p>
+                  <a class="underline-link" href="https://coinpusherforcharity.com">coinpusherforcharity.com</a>
+              </figcaption>
+            </div>
+            <div class="project MMV">
+              <figure class="project__pic">
+                <a href="https://coinpusherforcharity.com/" target="_blank"></a>
+                  <img src="images/Banner_MMV.jpg" alt="MMV Banner">
+                </a>
+              </figure>
+              <figcaption class="project__caption">
+                <div class="project__name">
+                  <a class="underline-link" href="https://outplay.com/games/mystery-match-village" target="_blank">Mystery Match Village</a>
+                </div>
+                <p>
+                  A match three, world-builder, narrative and hidden object game based in a 1930's England. Released in 2021 for Android and iPhone.
+                </br></br>
+                  I helped launch Outplay's most technically challenging game so far with a team of 8 other programmers to an audience of hundreds of thousands as a generalist programmer, touching everything from UI to gameplay to liveops.
+                </p>
+                  <a class="underline-link" href="https://outplay.com/games/mystery-match-village">outplay.com/games/mystery-match-village</a>
               </figcaption>
             </div>
             <div class="project Emojisnatch">
               <figure class="project__pic">
-                <a href="https://emoji-snatch.joshbe.me" target="_blank">
+                <a class="underline-link" href="https://emoji-snatch.joshbe.me" target="_blank">
                   <img src="images/Banner_Emojisnatch.gif" alt="Emojisnatch Banner">
                 </a>
               </figure>
@@ -43,24 +90,8 @@
                 <div class="project__name">
                   <a href="https://emoji-snatch.joshbe.me" target="_blank">Emojisnatch</a>
                 </div>
-                <p>A web-based game backed by Discord and <a class="underline-link" href="https://firebase.google.com/" target="_blank">Firebase</a> that lets you collect custom emojis used in Discord servers. I was the sole developer on this summer project, and it was an exploration into real-time multiplayer and single-sign-on authentication.</p>
-              </figcaption>
-            </div>
-            <div class="project InfinitePixels">
-              <figure class="project__pic">
-                <a href="https://play.google.com/store/apps/details?id=me.joshbe.infinitepixels" target="_blank">
-                  <img src="images/Banner_Infinitepixels.png" alt="Infinite Pixels Banner">
-                </a>
-              </figure>
-              <figcaption class="project__caption">
-                <div class="project__name">
-                  <a href="https://play.google.com/store/apps/details?id=me.joshbe.infinitepixels" target="_blank">
-                    Infinite Pixels</a>
-                </div>
-                <p>Create pixel art with strangers on a massive board with a choice of fifteen vivid colors. Name tag, doodle, create works of art, it's all up to you! Share the locations of your works with your friends with the copy & paste feature.
-                  <br/><br/>
-                  Created solely by myself over a summer as an experiment with real-time networking and a custom protocol backed with a Node server.
-                  </p>
+                <p>A web-based game backed by Discord and <a class="underline-link" href="https://firebase.google.com/" target="_blank">Firebase</a> that lets you collect custom emojis used in Discord servers. An exploration into real-time multiplayer and single-sign-on authentication.</p>
+                <a class="underline-link" href="https://emoji-snatch.joshbe.me">emoji-snatch.joshbe.me</a>
               </figcaption>
             </div>
             <div class="project Variants">
@@ -76,31 +107,63 @@
                 </div>
                 <p>A shortform, introductionary, narrated video explaining Prefab Variants animated entirely within Unity. I made it over a couple of weeks to supplement the new update.
                   </p>
+
+                  <a class="underline-link" href="https://youtu.be/pv30sE_Vsis">youtu.be/pv30sE_Vsis</a>
+              </figcaption>
+            </div>
+            <div class="project InfinitePixels">
+              <figure class="project__pic">
+                <a href="https://play.google.com/store/apps/details?id=me.joshbe.infinitepixels" target="_blank">
+                  <img src="images/Banner_Infinitepixels.png" alt="Infinite Pixels Banner">
+                </a>
+              </figure>
+              <figcaption class="project__caption">
+                <div class="project__name">
+                  <a class="underline-link" href="https://play.google.com/store/apps/details?id=me.joshbe.infinitepixels" target="_blank">
+                    Infinite Pixels</a>
+                </div>
+                <p>Create pixel art with strangers on a massive board with a choice of fifteen vivid colors. Name tag, doodle, create works of art, it's all up to you! Share the locations of your works with your friends with the copy & paste feature.
+                  <br/><br/>
+                  Created solely by myself over a summer as an experiment with real-time networking and a custom protocol backed with a Node server.
+                  </p>
               </figcaption>
             </div>
           </div>
         </section>
 
         <section class="section assets" data-sr>
-            <div class="section__title">Freelance work</div>
+            <div class="section__title">Other work</div>
             <div class="section__content">
               <div class="project">
                 <div class="project__name">
-                  <a href="https://www.amazon.com/The-Kansas-Street-Company-Metronome/dp/B0811NBRFK/ref=sr_1_2?keywords=metronome+pro&qid=1578116394&rnid=2941120011&s=digital-skills&sr=1-2" target="_blank" class="arrow-link">Metronome Pro</a>
+                  <a class="underline-link" href="https://intogames.org/" target="_blank" class="arrow-link">Into Games VWEX Mentor</a>
                 </div>
-                <p>Commercial Alexa skill that simulates your own customizable metronome through your Alexa device.</p>
+                <p><a class="underline-link" href="https://intogames.org/">Into Games</a> hosted a Virtual Work Experience Week with students from Confetti College. I mentored a group of 6 students, helping them out with project guidance and feedback.</p>
               </div>
               <div class="project">
                 <div class="project__name">
-                  <a href="https://www.amazon.co.uk/Institut-Aran%C3%A9s/dp/B083BMR5ZM/ref=sr_1_1?keywords=institut+aranes&qid=1578116494&s=digital-skills&sr=1-1" target="_blank" class="arrow-link">Institut Aranes</a>
+                  <a class="underline-link" href="https://hairyheart.games/rallyallyally/" target="_blank" class="arrow-link">Rallyallyally</a>
                 </div>
-                <p>Handy Alexa skill for finding out information about studying the language Aranese in Spain.</p>
+                <p>I contracted for a few months on this exciting multiplayer mobile racing game. I took care of implementing UI and analytics.</p>
               </div>
               <div class="project">
                 <div class="project__name">
-                  <a href="" target="_blank" class="arrow-link">Otohom</a>
+                  <a href="" target="_blank" class="arrow-link">Gamejams</a>
                 </div>
-                <p>An Alexa skill and Google Home Action lets you use smart home products from Otohom.</p>
+                <p>Some assorted gamejams I participated in: 
+                  <ul>
+                    <li><a class="underline-link" href="https://lunadyedred.itch.io/hearth">Outplay Annual Jam</a></li>
+                    <li><a class="underline-link" href="https://ruari026.itch.io/hello-new-farmer">BEANS Jam</a></li>
+                    <li><a class="underline-link" href="https://globalgamejam.org/2020/games/mechafeud-4">GGJ 2020</a></li>
+                    <li><a class="underline-link" href="https://globalgamejam.org/2019/games/snailageddon">GGJ 2019</a></li>
+                  </ul>
+                </p>
+              </div>
+              <div class="project">
+                <div class="project__name">
+                  <a class="underline-link" href="https://www.youtube.com/watch?v=iM5YquyC3go&t=25966s" target="_blank" class="arrow-link">Feed My Pet LIVE</a>
+                </div>
+                <p>A virtual pet cube, streamed to YouTube, that you can feed in the chat.</p>
               </div>
             </div>      
           </section>
@@ -112,8 +175,8 @@
                   <div class="skillz__category">
                     <div class="skillz__category__label">Languages</div>
                     <ul>
-                      <li class="skillz__category__item">C++</li>
                       <li class="skillz__category__item">C#</li>
+                      <li class="skillz__category__item">C++</li>
                       <li class="skillz__category__item">JavaScript (ES6)</li>
                       <li class="skillz__category__item">HTML5</li>
                       <li class="skillz__category__item">CSS3</li>
@@ -123,8 +186,6 @@
                     <div class="skillz__category__label">Engines / Frameworks</div>
                     <ul>
                       <li class="skillz__category__item"><a class="underline-link" href="https://unity3d.com/" target="_blank">Unity</a></li>
-                      <li class="skillz__category__item"><a class="underline-link" href="https://www.libsdl.org/index.php" target="_blank">SDL2</a></li>
-                      <li class="skillz__category__item"><a class="underline-link" href="https://phaser.io/" target="_blank">Phaser</a></li>
                       <li class="skillz__category__item"><a class="underline-link" href="https://reactjs.org/" target="_blank">React</a></li>
                       <li class="skillz__category__item"><a class="underline-link" href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
                     </ul>
@@ -132,42 +193,23 @@
                   <div class="skillz__category">
                     <div class="skillz__category__label">Tools</div>
                     <ul>
-                      <li class="skillz__category__item"><a class="underline-link" href="https://git-scm.com/" target="_blank">Git</a> &amp; <a class="underline-link" href="https://github.com" target="_blank">Github</a></li>
-                      <li class="skillz__category__item"><a class="underline-link" href="https://trello.com/" target="_blank">Trello</a></li>
+                      <li class="skillz__category__item"><a class="underline-link" href="https://git-scm.com/" target="_blank">Git</a></li>
+                      <li class="skillz__category__item"><a class="underline-link" href="https://www.atlassian.com/software/jira" target="_blank">JIRA</a></li>
                     </ul>
                   </div>
                   <div class="skillz__category">
                     <div class="skillz__category__label">Fields</div>
                     <ul>
-                      <li class="skillz__category__item">Gameplay</li>
-                      <li class="skillz__category__item">User Interface</li>
-                      <li class="skillz__category__item">Game feel</li>
+                      <li class="skillz__category__item">Tooling</li>
+                      <li class="skillz__category__item">Live ops</li>
+                      <li class="skillz__category__item">UI</li>
+                      <li class="skillz__category__item">Testing</li>
                       <li class="skillz__category__item">Networking</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </section>
-            
-    <section class="section jam-projects" data-sr>
-        <div class="section__title">Game Jam Projects</div>
-        <div class="section__content">
-          <div class="project">
-            <div class="project__name">
-              <a href="https://ruari026.itch.io/hello-new-farmer" target="_blank" class="arrow-link">Hello, New Farmer!</a>
-            </div>
-            <p>A game for children to demonstrate in an engaging way the damaging effects of increasing meat consumption. I was the programmer in a team of six, produced over 5 days for the  <a class="underline-link" href="https://itch.io/jam/beans-jam" target="_blank">GCU Beans Jam.</a></p>
-            <p>Winner of the <b>Applied Games for Good Award</b>.
-            </p>
-          </div>
-          <div class="project">
-            <div class="project__name">
-              <a href="https://globalgamejam.org/2019/games/snailageddon" target="_blank" class="arrow-link">Snailageddon</a>
-            </div>
-            <p>Snailageddon is a fast-paced, local, multiplayer, platformer, shooting game. Developed with a team of 5 across 48 hours for <a class="underline-link" href="https://globalgamejam.org/2019/" target="_blank">Global Game Jam 2019</a></p>
-          </div>
-        </div>
-      </section>
 
 
         
@@ -177,37 +219,23 @@
             <br>
           </div>
           <div class="section__content">
-            <p>I'm a current student at <a class="underline-link" href="https://www.gcu.ac.uk/" target="_blank">Glasgow Caledonian University</a> on track to graduate with a first-class bachelors in <b>BSc Computer Games (Software Development)</b> for <b>June 2020.</b>
-              I'm excited to get started in the games industry and have found my passion in the field of gameplay & UI programming, specialising in <b>Unity</b> and I'm eager to pick up new skills, make connections with talented creators, and eventually be able to give back to the community. 
-    
-              My dream is to help create incredible, meaningful experiences and become part of a growing industry.
+            <p>
+              I graduated <a class="underline-link" href="https://www.gcu.ac.uk/" target="_blank">Glasgow Caledonian University</a> with a <b>BSc Computer Games (Software Development)</b>.
+              I enjoy specialising in <b>Unity</b> and I'm eager to pick up new skills, make connections with talented creators, and giving back to the community. My interests are in <b>tooling</b>, <b>UI</b> and <b>networking.</b>
+            </br></br>
+              My dream is to help create incredible, meaningful experiences as part of a rapidly growing industry.
     
               <br/><br/>
-              Outside of game development, I freelance in the Alexa skills market, enjoy running and taking part in gamejams.
+              Outside of game development, I love playing games, exercising, dabbling in 3D art and creating tutorials.
             </p>
           </div>
         </section>
-  
 
-
-    <header class="intro">
-      <div class="intro__wrap">
-        <img class="intro__icon" src="images/Icon_Logo.jpg" alt="Brand Icon" />
-        <h2 class="intro__tagline">I'm
-          <span class="name">Josh Lee</span>, a budding games developer based in Glasgow. I love gameplay programming and making things feel juicy.
-        </h2>
-      </div>
-      <h3 class="intro__contact">I'm currently looking for placement opportunities for <b>September 2020</b>. Please get in touch at
-        <span>
-          <a href="mailto:josh@joshbe.me" target="_blank" class="highlight-link">josh@joshbe.me</a>
-        </span>
-      </h3>
-    </header>
 
     <footer class="footer">
       <div class="footer__copyright">
         <div class="bottom">
-          <span>Derived from <a class="underline-link" href="https://joebrogers.com/" target="_blank">Joeb Rogers</a></span>
+          <span>Derived from <a class="underline-link" href="https://joebrogers.com/" target="_blank">Joeb Rogers</a>.</span>
         </div>
       </div>
       <div class="footer__links">
@@ -215,11 +243,11 @@
           <span class="text">email</span>
           <i class="fas fa-envelope"></i>
           <img src="images/itchio.svg" alt="twitter"> </a>
-        <a href="https://twitter.com/jshxe" target="_blank" title="twitter">
+        <a href="https://twitter.com/toficofi" target="_blank" title="twitter">
           <span class="text">twitter</span>
           <i class="fab fa-twitter"></i>
           <img src="images/itchio.svg" alt="twitter"> </a>
-        <a href="https://github.com/Jishaxe" target="_blank" title="github">
+        <a href="https://github.com/toficofi" target="_blank" title="github">
           <span class="text">github</span>
           <i class="fab fa-github"></i>
           <img src="images/itchio.svg" alt="twitter"> </a>
